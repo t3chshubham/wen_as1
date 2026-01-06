@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 2fr   1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 10px;
     height: 100%;
 }
@@ -13,46 +13,47 @@
      background-color: aqua;
 }
 
-.item2 {
+.item22 {
     height: 700px;
     background-color: lightcoral; 
+    grid-column: 1/3;
 }
 
-.item3{
-    
+.item33{
     background-color: rgb(156, 189, 5);
+    grid-column: 1/3;
+      height: 700px;
+}
    
 
-}
-.item4{
-     height: 1000px;
-    background-color: azure;
+
+.item44{
+     height: 700px;
+    background-color: rgb(9, 139, 139);
     grid-column: 1/3;
+    
 
 }
 
 
-.container2{
-    display: grid;
-    grid-template-columns:1fr 2fr;
-    gap: 10px;
-    height: 100%;
 
-}
-.item5{
+.item55{
      height: 700px;
     background-color: rgb(50, 39, 39); 
+     grid-column: 1/3;
 }
 
- .item6{
+ .item66{
      height: 700px;
     background-color: rgba(126, 61, 61, 0.836); 
+     grid-column: 1/3;
 }
 
-.item7{
+.item77{
    height: 700px;
    background-color: black;
    grid-column: 1/3;
+
 }
     
 .menu {

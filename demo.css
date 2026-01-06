@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    height: 100%;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    height: 60px;
+     background-color: aqua;
+
+    
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+.menu2 {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 40px;
+}
