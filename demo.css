@@ -94,3 +94,34 @@ body{
 
 
 }
+.hamburger {
+  display: none;
+}
+@media (max-width: 768px) {
+  .menu2 {
+    display: none;
+  }
+
+  .menua {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .container2 {
+    grid-template-columns: 1fr;
+  }
+  .logo{
+    font-size: smaller;
+  }
+
+  .hamburger {
+    display: block;
+    align-items: end;
+    padding-right: 80px;
+  }
+
+
+}

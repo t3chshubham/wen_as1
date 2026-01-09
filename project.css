@@ -73,12 +73,8 @@
     display: block;
 }
 
-.item66 {
-    height: 300px;
-    background-color: black;
-    grid-column: 1/3;
-    margin: -2%;
-}
+
+
 
 
 .menu {
@@ -111,8 +107,8 @@
     position: relative;
 }
 
-.menua::after {
-    content: "";
+    .menua::after {
+        content: "";
     left: 0;
     width: 0%;
     height: 1px;
@@ -158,6 +154,36 @@ body {
 
 .logo :hover {
     color: gray;
+}
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu2 {
+    display: none;
+  }
+
+  .menua {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .container2 {
+    grid-template-columns: 1fr;
+  }
+  .logo{
+    font-size: smaller;
+  }
+
+  .hamburger {
+    display: block;
+    align-items: end;
+    padding-right: 80px;
+  }
 
 
 }
