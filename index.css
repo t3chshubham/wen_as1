@@ -37,19 +37,18 @@ html {
   font-size: 80px;
   margin: 0;
   transform: scale(2);
-  /* starts bigger */
+ 
   animation: textShrink 1.2s ease forwards;
 }
 
 @keyframes textShrink {
   100% {
     transform: scale(1);
-    /* shrinks to normal */
+    
   }
 }
 
 
-/*bottom text of item2*/
 .left-text {
   grid-column: 1;
   grid-row: 2;
@@ -234,10 +233,10 @@ body {
   text-decoration: none;
   color: black;
   transition: 1s;
-  font-style: none
+  font-style: normal;
 }
 
-.logo :hover {
+.logo a:hover {
   color: gray;
 }
 
