@@ -246,6 +246,7 @@ body {
 }
 
 @media (max-width: 768px) {
+  
   .menu2 {
     display: none;
   }
