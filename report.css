@@ -84,7 +84,7 @@ body {
 .report {
     max-width: 900px;
     margin: 120px auto;
-    padding: 20px;
+    padding: 10px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -107,10 +107,15 @@ body {
 
 
 @media (max-width: 768px) {
-    .menu2,
+
+    
     .menua {
         display: none;
     }
+    .menu2 {
+        display: none;
+    }
+    
 
     .container {
         grid-template-columns: 1fr;
@@ -126,17 +131,14 @@ body {
     }
 }
 
-  .report h1 {
+.report h1 {
     font-size: medium;
-  }
+}
 
-  .report section {
+.report section {
     font-size: small;
-  }
+}
 
-  .report h2 {
+.report h2 {
     font-size: small;
-  }
-
-
-
+}

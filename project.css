@@ -110,6 +110,7 @@ body {
 
 /* MOBILE */
 @media (max-width: 768px) {
+
     .menu2,
     .menua {
         display: none;
